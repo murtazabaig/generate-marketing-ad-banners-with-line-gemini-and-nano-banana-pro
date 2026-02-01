@@ -20,7 +20,6 @@ Effortlessly turn LINE messages into high-quality, text-rich advertising banners
 
 ## Included Files
 - `workflow.json`
-- `metadata.json`
 
 ## Setup
 1. Import `workflow.json` into n8n.
@@ -41,6 +40,13 @@ Effortlessly turn LINE messages into high-quality, text-rich advertising banners
 ## Author
 
 Murtaza Baig
+
+## Screenshots
+
+![Screenshot](assets/10433-generate-asmr-rainforest-videos-from-text-with-seedream---seedance-on-fal-ai.webp)
+![Screenshot](assets/5448-clone-voices-from-text-to-speech-with-zyphra-zonos-api.webp)
+![Screenshot](assets/n8nworfklows.webp)
+![Screenshot](assets/thumbnail.webp)
 
 ## License
 MIT License. See `LICENSE`.
