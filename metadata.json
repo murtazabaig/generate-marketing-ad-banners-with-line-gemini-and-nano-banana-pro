@@ -1,0 +1,39 @@
+{
+  "id": 11205,
+  "title": "Generate Marketing Ad Banners with LINE, Gemini, and Nano Banana Pro",
+  "slug": "generate-marketing-ad-banners-with-line-gemini-and-nano-banana-pro-11205",
+  "description": "ABOUT THIS TEMPLATEThis workflow creates high-quality, text-rich advertising banners from simpleLINE messages.It combines Google Gemini (for marketing-focused prompt engineering) and NanoBanana Pro (accessed via Kie.ai [http://Kie.ai] API) to generate images withsuperior text rendering capabilities. It also handles the asynchronous APIpolling required for high-quality image generation.HOW IT WORKS 1. Input: Users send a banner concept via LINE (e.g., \"Coffee brand, morning vibe\"). 2. Prompt Engineering: Gemini optimizes the request into a detailed prompt, specifying lighting, composition, and Japanese catch-copy placement. 3. Async Generation: The workflow submits a job to Nano Banana Pro (Kie API) and intelligently waits/polls until the image is ready. 4. Hosting: The final image is downloaded and uploaded to a public AWS S3 bucket. 5. Delivery: The image is pushed back to the user on LINE.WHO IT’S FOR * Marketing teams creating A/B test assets. * Japanese market advertisers needing accurate text rendering. * Developers looking for an example of Async API Polling patterns in n8n.REQUIREMENTS * n8n (Cloud or Self-hosted). * Kie.ai [http://Kie.ai] API Key (for Nano Banana Pro model). * Google Gemini API Key. * AWS S3 Bucket (Public access enabled). * LINE Official Account (Messaging API).SETUP STEPS 1. Credentials: Configure the \"Header Auth\" credential for the Kie.ai [http://Kie.ai] nodes (Header: Authorization, Value: Bearer YOUR_API_KEY). 2. AWS: Ensure your S3 bucket allows public read access so LINE can display the image. 3. Webhook: Add the production webhook URL to your LINE Developers console.",
+  "metadescription": "Effortlessly turn LINE messages into high-quality, text-rich advertising banners for the Japanese market using AI and Google Gemini. Learn more now!",
+  "summary": "Transform simple LINE messages into stunning, text-rich advertising banners tailored for the Japanese market  \nHarness AI-driven prompt engineering with Google Gemini for persuasive marketing concepts, refining style and catch-copy placement  \nLeverage NanoBanana Pro via the Kie.ai API for superior text rendering and async image generation, with intelligent polling to ensure quality  \nSeamlessly host finished banners on a public AWS S3 bucket for instant accessibility  \nDeliver polished visuals right back to users on LINE—perfect for A/B tests, precise Japanese copy, and developers seeking async integration workflows",
+  "date": "25 Nov 2025",
+  "createdAtRaw": "2025-11-25T03:59:11.78+00:00",
+  "categories": [
+    "Content Creation",
+    "Multimodal AI"
+  ],
+  "nodeTypes": [
+    "n8n-nodes-base.code",
+    "n8n-nodes-base.wait",
+    "n8n-nodes-base.awsS3",
+    "n8n-nodes-base.webhook",
+    "n8n-nodes-base.stickyNote",
+    "n8n-nodes-base.httpRequest",
+    "@n8n/n8n-nodes-langchain.googleGemini"
+  ],
+  "author": {
+    "name": "Masaki Go",
+    "username": "pippi",
+    "avatar": "https://gravatar.com/avatar/3e5a84235f796f5fe58271af90d091573dbef7c0999a83800d7b1b6d94c0e16a?r=pg&d=retro&size=200",
+    "verified": true
+  },
+  "popularity": 456,
+  "visitors": 1265,
+  "inserters": 415,
+  "templateUrl": "https://n8n.io/workflows/11205",
+  "readme": "",
+  "thumbnail": "https://supabase.amastuces.com/storage/v1/object/public/worklowscreenshot/11205-generate-marketing-ad-banners-with-line--gemini--and-nano-banana-pro.webp",
+  "complexityLevel": "advanced",
+  "templateData": null,
+  "price": 0,
+  "referalUrl": null
+}
