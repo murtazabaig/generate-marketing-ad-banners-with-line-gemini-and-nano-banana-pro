@@ -1,6 +1,4 @@
-![Workflow thumbnail](assets/thumbnail.webp)
 
-![Workflow thumbnail](assets/thumbnail.svg)
 
 ![n8n](https://img.shields.io/badge/n8n-workflow-0EA5E9)
 ![license](https://img.shields.io/badge/license-MIT-green)
@@ -40,13 +38,6 @@ Effortlessly turn LINE messages into high-quality, text-rich advertising banners
 ## Author
 
 Murtaza Baig
-
-## Screenshots
-
-![Screenshot](assets/10433-generate-asmr-rainforest-videos-from-text-with-seedream---seedance-on-fal-ai.webp)
-![Screenshot](assets/5448-clone-voices-from-text-to-speech-with-zyphra-zonos-api.webp)
-![Screenshot](assets/n8nworfklows.webp)
-![Screenshot](assets/thumbnail.webp)
 
 ## License
 MIT License. See `LICENSE`.
